@@ -12,7 +12,7 @@
 
 #include <ESP8266WiFi.h>    // https://github.com/esp8266/Arduino
 #include <PubSubClient.h>   // https://github.com/knolleary/pubsubclient/releases/tag/v2.6
-#include <config.h>
+#include "config.h"
 
 #define           STRUCT_CHAR_ARRAY_SIZE 24   // size of the arrays for MQTT username, password, etc.
 
@@ -24,11 +24,6 @@
   #define         DEBUG_PRINT(x)
   #define         DEBUG_PRINTLN(x)
 #endif
-
-// Sonoff properties
-const uint8_t     BUTTON_PIN = 0;
-const uint8_t     RELAY_PIN  = 12;
-const uint8_t     LED_PIN    = 13;
 
 // MQTT
 char              MQTT_CLIENT_ID[7]                                 = {0};

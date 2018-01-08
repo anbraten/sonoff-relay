@@ -1,9 +1,11 @@
 # sonoff-mqtt
-
 Sketch to run sonoff basic via mqtt.
+
+## setup
+Copy config.example.h to config.h and edit settings
 
 ## required Libraries
 * PubSubClient
 
-## based on
-https://github.com/mertenats/Itead_Sonoff
+## credits
+* https://github.com/mertenats/Itead_Sonoff
