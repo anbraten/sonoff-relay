@@ -18,7 +18,7 @@
 #define           LED_PIN             13
 #define           PIN_SENSOR          14
 
-// Sensors
+// Sensors (pir, reed)
 #define           SENSOR //enable sensor
 
 // TLS support, make sure to edit the fingerprint
