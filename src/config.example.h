@@ -16,6 +16,10 @@
 #define           BUTTON_PIN          0
 #define           RELAY_PIN           12
 #define           LED_PIN             13
+#define           PIN_SENSOR          14
+
+// Sensors
+#define           SENSOR //enable sensor
 
 // TLS support, make sure to edit the fingerprint
 //#define           TLS
